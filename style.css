@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+
+.main{
+    background-color: rgb(235, 153, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    max-height: max-content;
+    box-shadow: 10px 10px 10px rgb(8, 8, 7) ;
+
+}
+
+.clock{
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+   font-weight: 700;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   float: left;
+   color: white;
+
+   
+}
+.time{
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: auto;
+    height: max-content;
+    color: black;
+}
